@@ -8,7 +8,7 @@ let Sum = 0
 
 for (i = 0; i < tab.length; i++) {
   for (j = 0; j < tab[i].length; j++) {
-    Sum = Sum + tab[i][j]
+    Sum = Sum + tab[i][j] // ou sum += tab[i][j]
   }
 }
 console.log(Sum)
